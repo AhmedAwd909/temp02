@@ -110,7 +110,7 @@ header .menu ul.parent {
 header .menu ul.child {
     background-color: #fff;
     width: 215px;
-    margin-top: 20px;
+    margin-top: 27px;
 }
 header .menu ul.child li a {
     color: #a5a0a0;
@@ -150,6 +150,7 @@ header .menu ul li i {
 }
 header .menu ul li ul li {
     display: none;
+    padding-top: 10px;
 }
 header .menu ul li:hover ul li {
     display: block;
