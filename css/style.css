@@ -76,9 +76,7 @@
 .nav .icons i:hover {
     color: #000;
 }
-.nav .icons i.parent:hover span.count {
-    /* margin-top: -29px; */
-}
+
 .nav .icons span {
     position: absolute;
     top: 0;
@@ -91,12 +89,16 @@
     height: 25px;
     border-radius: 50%;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.6em;
     transition: .3s all ease-in-out;
+    font-weight: normal;
 }
-.nav .icons span:hover {
+.nav .icons i.parent:hover span.count {
     margin-top: -29px;
 }
+/* .nav .icons span:hover {
+    margin-top: -29px;
+} */
 hr {
     border: 0.3px solid #eee;
 }
@@ -249,6 +251,9 @@ hr {
 }
 .collection .container img {
     width: 100%;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
 }
 .collection .container .main::after {
     content: "";
@@ -270,7 +275,6 @@ hr {
 }
 .collection .container div.main:hover img {
     transform: scale(1.1, 1.1);
-    transition: .3s all ease-in-out;
 }
 .collection .container .main span {
     font-size: 12px;
